@@ -1,0 +1,33 @@
+{
+  "name": "persist-js",
+  "version": "1.0.0",
+  "description": "Zero-fat, lightweight and vanilla-flavored 🍦 temporary input form storage library",
+  "author": "Luan Himmlisch <luan@himmlisch.com.mx>",
+  "license": "MIT",
+  "repository": "https://github.com/LuanHimmlisch/persistjs",
+  "homepage": "https://github.com/LuanHimmlisch/persistjs#readme",
+  "bugs": {
+    "url": "https://github.com/LuanHimmlisch/persistjs/issues"
+  },
+  "keywords": [
+    "vanilla",
+    "persist",
+    "storage",
+    "cache",
+    "form"
+  ],
+  "main": "dist/persist.min.js",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "npx mix -p",
+    "watch": "npx mix watch"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^12.1.0"
+  }
+}
