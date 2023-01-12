@@ -67,7 +67,6 @@
                         const livewire = Livewire.components.componentsById[parentId];
 
                         if (livewire) {
-                            livewire.initialize();
                             setTimeout(() => {
                                 element.value = data.value;
                                 livewire.set(livewire_id, data.value);
